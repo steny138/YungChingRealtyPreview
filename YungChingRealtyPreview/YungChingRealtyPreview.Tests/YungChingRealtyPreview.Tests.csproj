@@ -33,6 +33,22 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=4.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.3.0\lib\net45\Autofac.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Autofac.Integration.WebApi, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.WebApi2.4.0.1\lib\net45\Autofac.Integration.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
@@ -99,6 +115,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\ProductsControllerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
     <Compile Include="Controllers\ValuesControllerTest.cs" />
@@ -110,6 +127,18 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\YungChingRealtyPreview.Repository\YungChingRealtyPreview.Repository.csproj">
+      <Project>{0f879f99-3ae9-4843-8520-59fb956d5f97}</Project>
+      <Name>YungChingRealtyPreview.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YungChingRealtyPreview.Service\YungChingRealtyPreview.Service.csproj">
+      <Project>{9729b71c-9b47-476d-ad30-5fbc8bff9ca0}</Project>
+      <Name>YungChingRealtyPreview.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YungChingRealtyPreview.ViewModel\YungChingRealtyPreview.ViewModel.csproj">
+      <Project>{d5278990-4e04-44de-8a8b-d8420a931c28}</Project>
+      <Name>YungChingRealtyPreview.ViewModel</Name>
+    </ProjectReference>
     <ProjectReference Include="..\YungChingRealtyPreview\YungChingRealtyPreview.Web.csproj">
       <Project>{034F6952-3617-458E-8B54-E17559CD3BCC}</Project>
       <Name>YungChingRealtyPreview.Web</Name>

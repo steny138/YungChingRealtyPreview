@@ -80,7 +80,7 @@ namespace YungChingRealtyPreview.Repository
 
 					dbContextTransaction.Commit();
 				}
-				catch (Exception ex)
+				catch (Exception)
 				{
 					dbContextTransaction.Rollback();
 				}
