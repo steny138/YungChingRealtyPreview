@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YungChingRealtyPreview.Web", "YungChingRealtyPreview\YungChingRealtyPreview.Web.csproj", "{034F6952-3617-458E-8B54-E17559CD3BCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YungChingRealtyPreview.Tests", "YungChingRealtyPreview.Tests\YungChingRealtyPreview.Tests.csproj", "{8CE4EEB0-2918-438E-96C1-AA4A8233E8BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YungChingRealtyPreview.Service", "YungChingRealtyPreview.Service\YungChingRealtyPreview.Service.csproj", "{9729B71C-9B47-476D-AD30-5FBC8BFF9CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YungChingRealtyPreview.ViewModel", "YungChingRealtyPreview.ViewModel\YungChingRealtyPreview.ViewModel.csproj", "{D5278990-4E04-44DE-8A8B-D8420A931C28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YungChingRealtyPreview.Repository", "YungChingRealtyPreview.Repository\YungChingRealtyPreview.Repository.csproj", "{0F879F99-3AE9-4843-8520-59FB956D5F97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{034F6952-3617-458E-8B54-E17559CD3BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034F6952-3617-458E-8B54-E17559CD3BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034F6952-3617-458E-8B54-E17559CD3BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034F6952-3617-458E-8B54-E17559CD3BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE4EEB0-2918-438E-96C1-AA4A8233E8BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE4EEB0-2918-438E-96C1-AA4A8233E8BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE4EEB0-2918-438E-96C1-AA4A8233E8BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE4EEB0-2918-438E-96C1-AA4A8233E8BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9729B71C-9B47-476D-AD30-5FBC8BFF9CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9729B71C-9B47-476D-AD30-5FBC8BFF9CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9729B71C-9B47-476D-AD30-5FBC8BFF9CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9729B71C-9B47-476D-AD30-5FBC8BFF9CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5278990-4E04-44DE-8A8B-D8420A931C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5278990-4E04-44DE-8A8B-D8420A931C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5278990-4E04-44DE-8A8B-D8420A931C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5278990-4E04-44DE-8A8B-D8420A931C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F879F99-3AE9-4843-8520-59FB956D5F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F879F99-3AE9-4843-8520-59FB956D5F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F879F99-3AE9-4843-8520-59FB956D5F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F879F99-3AE9-4843-8520-59FB956D5F97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
